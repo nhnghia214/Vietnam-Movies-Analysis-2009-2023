@@ -13,3 +13,9 @@ def doanh_thu_tb_quoc_gia(df):
 def phan_phoi_thoi_luong(df):
     """Phân phối thời lượng phim"""
     return df["runtime"].dropna()
+def get_min(df, coloumn):
+    return df[coloumn].min()
+def get_max(df, coloumn):
+    return df[coloumn].max()
+def get_mean(df, coloumn):
+    return df[coloumn].mean().round(2)
