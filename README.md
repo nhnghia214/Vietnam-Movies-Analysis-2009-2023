@@ -1,29 +1,33 @@
 # Vietnam-Movies-Analysis-2009-2023
-Đề tài Phân tích phim Việt Nam giai đoạn 2009–2023 nhằm tìm hiểu các yếu tố ảnh hưởng đến thành công của phim, từ đó rút ra insight có thể ứng dụng trong sản xuất, marketing và chiến lược phát hành.
+Đề tài: Phân tích phim toàn cầu giai đoạn 2009–2023 với trọng tâm ứng dụng cho thị trường Việt Nam
 
 1. Yếu tố ảnh hưởng đến thành công của phim
 
-- Ngôn ngữ gốc (original_language), ngân sách (budget), mức độ phổ biến (popularity) ảnh hưởng như thế nào đến doanh thu (revenue) và điểm đánh giá (vote_average).
+- Ngôn ngữ gốc (original_language), ngân sách (budget) ảnh hưởng như thế nào đến doanh thu (revenue) và điểm đánh giá (vote_average).
+
+- Phân tích mối quan hệ giữa ngân sách (budget), doanh thu (revenue), mức độ phổ biến (popularity), đánh giá trung bình (vote_average) và số lượng đánh giá (vote_count) để tìm ra yếu tố ảnh hưởng đến thành công phim.
+
+- So sánh sự khác biệt giữa các ngôn ngữ gốc (original_language) trong thành công toàn cầu và tại Việt Nam.
 
 - Mối tương quan giữa Budget và Revenue → liệu đầu tư nhiều có chắc chắn mang lại lợi nhuận?
 
-- Xác định các phim có ROI cao nhất (Doanh thu/Ngân sách) → phân tích đặc điểm của chúng (thời lượng, ngôn ngữ, năm phát hành…).
+- Xác định các phim có ROI cao nhất (revenue/budget) trên toàn cầu và tại Việt Nam; phân tích thêm đặc điểm như thời lượng (runtime), năm phát hành (release_date).
 
 2. So sánh trước và sau COVID-19 (2019 vs 2020–2022)
 
-- Số lượng phim phát hành thay đổi như thế nào.
+- So sánh số lượng phim phát hành (status + release_date) theo từng năm, trước và sau COVID-19.
 
-- Thể loại/ngôn ngữ nào vẫn tiếp tục tồn tại, thể loại nào biến mất hoặc suy giảm.
+- Phân tích xu hướng thay đổi về ngôn ngữ, doanh thu, ngân sách, mức độ phổ biến và điểm đánh giá.
 
-- Revenue và rating có sụt giảm không, và khi nào thị trường phục hồi.
+- Đánh giá sự phục hồi thị trường toàn cầu và Việt Nam sau COVID-19 dựa trên doanh thu và số lượng phim phát hành.
 
 3. Insight cho doanh nghiệp (ứng dụng thực tế)
 
-- Phân khúc thị hiếu khán giả: Thể loại/đặc điểm nào được vote cao nhưng revenue thấp → tiềm năng đầu tư.
+- Phân khúc thị hiếu khán giả: Ngôn ngữ/đặc điểm nào được vote cao nhưng revenue thấp → tiềm năng đầu tư.
 
 - Chiến lược phân bổ ngân sách: Nhóm phim nào ngân sách thấp nhưng ROI cao → ưu tiên đầu tư an toàn.
 
 - Mùa phát hành tối ưu: Phân tích xu hướng doanh thu theo tháng/quý để gợi ý thời điểm phát hành.
 
-- Bài học khủng hoảng: So sánh trước – sau COVID để thấy khả năng ứng phó rủi ro và xu hướng phục hồi của thị trường.
+- Bài học từ COVID-19: đánh giá khả năng phục hồi của thị trường Việt Nam trong bối cảnh so sánh với toàn cầu.
 
