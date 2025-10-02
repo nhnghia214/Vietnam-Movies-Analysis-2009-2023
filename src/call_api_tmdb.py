@@ -85,3 +85,4 @@ if __name__ == "__main__":
     df = build_movies_dataframe(2015, 2023, pages_per_year=20)
     save_to_csv(df, "movies_vietnam_release.csv")
     print(df.head())
+
