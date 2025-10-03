@@ -11,7 +11,7 @@
 
 - Mối tương quan giữa Budget và Revenue → liệu đầu tư nhiều có chắc chắn mang lại lợi nhuận?
 
-- Xác định các phim có ROI cao nhất (revenue/budget) trên toàn cầu và tại Việt Nam; phân tích thêm đặc điểm như thời lượng (runtime), năm phát hành (release_date).
+- Xác định các phim có ROI cao nhất (revenue/budget) trên toàn cầu và tại Việt Nam.
 
 2. So sánh trước và sau COVID-19 (2019 vs 2020–2022)
 

@@ -1,10 +1,18 @@
 def ngan_sach_vs_doanh_thu(df):
     """Kiểm tra tương quan ngân sách & doanh thu"""
-    return df[["budget", "revenue"]].corr().iloc[0,1]
+    return df[["budget", "revenue"]].corr().iloc[0, 1]
 
 def phim_roi_cao(df, top=10):
     """Top phim ROI cao nhất"""
-    return df.sort_values("roi", ascending=False).head(top)
+    if 'budget' not in df.columns or 'revenue' not in df.columns:
+        raise ValueError("DataFrame phải có cột 'budget' và 'revenue'.")
+
+    df = df.copy()
+    # Tránh chia cho 0
+    df = df[df['budget'] > 0]
+    df['roi'] = (df['revenue'] - df['budget']) / df['budget'] * 100
+
+    return df.sort_values(by='roi', ascending=False).head(top)
 
 def xu_huong_the_loai(df):
     """Số phim theo thể loại & năm"""
